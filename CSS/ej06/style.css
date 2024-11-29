@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.fila1,
+.fila2,
+.fila3 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+.cuadrado {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-width: 3px;
+  cursor: pointer;
+  rotate: 45deg;
+  transition: rotate 0.5s;
+}
+
+.cuadrado:hover {
+  rotate: 0deg;
+}
+
+.fila1 {
+  background-color: darkslategray;
+}
+
+.fila2 {
+  background-color: darkgreen;
+}
+
+.fila3 {
+  background-color: fuchsia;
+}
+
+.fila3 .cuadrado {
+  border-radius: 50%;
+}
+
+.div1 {
+  background-color: aqua;
+  border-style: solid;
+  border-color: red;
+}
+
+.div2 {
+  background-color: blueviolet;
+  border-style: dotted;
+  border-color: aqua;
+}
+
+.div3 {
+  background-color: chocolate;
+  border-style: dashed;
+  border-color: blueviolet;
+}
+
+.div4 {
+  background-color: bisque;
+  border-style: double;
+  border-color: chocolate;
+}
+
+.div5 {
+  background-color: red;
+  border-style: groove;
+  border-color: bisque;
+}
