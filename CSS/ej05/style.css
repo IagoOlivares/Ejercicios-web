@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.fila1,
+.fila2,
+.fila3,
+.fila4 {
+  display: flex;
+  gap: 10px;
+}
+
+.cuadrado {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.fila1 {
+  background-color: darkslategray;
+}
+
+.fila2 {
+  background-color: darkgreen;
+  justify-content: end;
+}
+
+.fila3 {
+  background-color: fuchsia;
+  justify-content: space-between;
+}
+
+.fila3 .cuadrado {
+  border-radius: 50%;
+}
+
+.fila4 {
+  background-color: chartreuse;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.div1 {
+  background-color: aqua;
+  border-style: solid;
+  border-color: red;
+}
+
+.div2 {
+  background-color: blueviolet;
+  border-style: dotted;
+  border-color: aqua;
+}
+
+.div3 {
+  background-color: chocolate;
+  border-style: dashed;
+  border-color: blueviolet;
+}
+
+.div4 {
+  background-color: bisque;
+  border-style: double;
+  border-color: chocolate;
+}
+
+.div5 {
+  background-color: red;
+  border-style: groove;
+  border-color: bisque;
+}

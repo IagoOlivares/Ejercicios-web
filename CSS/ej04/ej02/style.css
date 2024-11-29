@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.cuadrado {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.fila1 td:nth-child(1),
+.fila2 td:nth-child(1),
+.fila3 td:nth-child(1) {
+  background-color: blueviolet;
+}
+.fila1 td:nth-child(2),
+.fila2 td:nth-child(2),
+.fila3 td:nth-child(2) {
+  background-color: chocolate;
+}
+.fila1 td:nth-child(3),
+.fila2 td:nth-child(3),
+.fila3 td:nth-child(3) {
+  background-color: bisque;
+}
+.fila1 td:nth-child(4),
+.fila2 td:nth-child(4),
+.fila3 td:nth-child(4) {
+  background-color: red;
+}
+.fila1 td:nth-child(5),
+.fila2 td:nth-child(5),
+.fila3 td:nth-child(5) {
+  background-color: aqua;
+}
+
+.fila2 .cuadrado {
+  border: 1px solid black;
+}
+
+.fila3 .cuadrado {
+  border-radius: 50%;
+}
+
+.div1 {
+  background-color: aqua;
+}
+
+.div2 {
+  background-color: blueviolet;
+}
+
+.div3 {
+  background-color: chocolate;
+}
+
+.div4 {
+  background-color: bisque;
+}
+
+.div5 {
+  background-color: red;
+}
