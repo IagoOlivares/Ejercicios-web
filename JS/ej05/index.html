@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ej05</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" defer></script>
+  </head>
+  <body>
+    <h1>Cuenta Regresiva</h1>
+    <label for="tiempo">Ingresa los segundos:</label>
+    <input type="number" id="tiempo" min="1" placeholder="Segundos" />
+    <p id="temporizador"></p>
+    <p id="alarmaMensaje"></p>
+    <div class="botones">
+      <button id="iniciar">Iniciar</button>
+      <button id="posponer" disabled>Posponer</button>
+      <button id="detener" disabled>Detener</button>
+    </div>
+
+    <audio id="audioAlarma" loop>
+      <source src="alarm-clock.mp3" type="audio/wav" />
+    </audio>
+  </body>
+</html>
